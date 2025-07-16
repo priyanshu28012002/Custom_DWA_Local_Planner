@@ -6,7 +6,7 @@ Implement the **Dynamic Window Approach (DWA)** for local trajectory planning in
 
 ---
 
-##  Key Implementation Steps
+##  Implementation Steps
 ![Implementation Steps](image/control_flow_dwa.png)
 
 ### 1. Get Current State `odom` `scan`
