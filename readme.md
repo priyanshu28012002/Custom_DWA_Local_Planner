@@ -49,7 +49,7 @@ Total Score = α × Heading + β × Clearance + γ × Velocity
 
 ### 6. Publish to `cmd_vel`
 
-![DWA Planner in Action](Image/dwa.gif)
+![DWA Planner in Action](image/dwa.gif)
 
 ## ROS 2 Humble – DWA Planner Project Setup Guide
 
