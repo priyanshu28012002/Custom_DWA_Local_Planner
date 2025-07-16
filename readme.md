@@ -94,7 +94,7 @@ Navigate to the `src` directory and clone your planner's repository:
 
 ```bash
 cd ~/dwa_ws/src
-git clone 
+git clone https://github.com/priyanshu28012002/Custom_DWA_Local_Planner.git
 ```
 
 ---
