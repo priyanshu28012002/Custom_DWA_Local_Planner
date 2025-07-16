@@ -1,5 +1,5 @@
 
-# Dynamic Window Approach (DWA) - Implementation Plan
+# Dynamic Window Approach (DWA)
 
 # Objective
 Implement the **Dynamic Window Approach (DWA)** for local trajectory planning in mobile robots. The algorithm generates multiple forward trajectories and selects the best one based on motion constraints and cost functions related to goal direction, velocity, and obstacle clearance.
