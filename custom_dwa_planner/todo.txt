@@ -1,0 +1,32 @@
+DWA LOCAL PLANNER IMPLEMENTATION TODO
+
+Subscriber
+odom
+scan
+global_plan
+global_costmap
+local_costmap
+
+Publisher
+cmd_vel
+candidate_trajectory
+selected_trajectory
+local_plan
+
+Steps
+joycontroller_setup setup joy to test the sensers odom and scan data || implenmetn kalanfilter
+costmap_setup Subscriber scan and publish global aswell as locl costmap || make map from global_costmap and implenmetn slam
+rrt global_planer_setup Subscriber goal , global_costmap and publish the global_plan || replan the path continious for better reconnection rrt*
+
+dwa_implementation Steps
+
+
+Get current state
+Generate velocity samples
+Gentnerate multipal trajectory 
+Pick trajectory with highest score of costfuncation base on 
+heading_to_goal_score toword the gole in correct orientation
+clearance_score obstrical in the costmap
+velocity_score 
+Select best velocity
+Publish the cmd_vel
